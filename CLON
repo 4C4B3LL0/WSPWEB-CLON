@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Web</title>
+  <style>
+    /* Estilos CSS para simular la interfaz de WhatsApp Web */
+    body {
+      background-color: #eaeaea;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #075e54;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .chat-container {
+      background-color: #fff;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .message {
+      margin-bottom: 10px;
+    }
+
+    .message .sender {
+      font-weight: bold;
+    }
+
+    .message .timestamp {
+      color: #999;
+      font-size: 12px;
+      margin-left: 10px;
+    }
+
+    .message .content {
+      margin-left: 20px;
+    }
+
+    .input-container {
+      background-color: #fff;
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .input-container input[type="text"] {
+      width: 80%;
+      padding: 5px;
+    }
+
+    .input-container input[type="submit"] {
+      background-color: #075e54;
+      border: none;
+      color: #fff;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>WhatsApp Web</h1>
+  </div>
+
+  <div class="chat-container">
+    <div class="message">
+      <span class="sender">John Doe</span>
+      <span class="timestamp">10:30 AM</span>
+      <div class="content">Hello, how are you?</div>
+    </div>
+    <div class="message">
+      <span class="sender">Jane Smith</span>
+      <span class="timestamp">10:35 AM</span>
+      <div class="content">I'm good, thanks!</div>
+    </div>
+    <!-- Aquí puedes agregar más mensajes -->
+  </div>
+
+  <div class="input-container">
+    <input type="text" placeholder="Type a message..." />
+    <input type="submit" value="Send" />
+  </div>
+</body>
+</html>
